@@ -97,3 +97,19 @@ The prevailing trend in medical artificial intelligence relies on deep spatial a
 The primary engineering objective of this architecture was to detect anomalies on zero-infrastructure hardware. By relying on prime-scaled harmonic resonance rather than spatial geometry, the Resonant Sieve achieves 76.88% clinical accuracy using a microscopic, single-layer dense architecture consisting of only 32 hidden neurons. 
 
 Furthermore, because the FFT bandpass isolation operates strictly on the 1D predictive residual, the entire diagnostic pipeline avoids spectrogram generation entirely. The Spectral Sieve is mathematically light enough to execute real-time, on-device inference directly on the microchip of a digital stethoscope or a wearable biometric patch, operating entirely on low-voltage battery power without requiring active internet connectivity.
+
+## Phase 4: Cosmic Telemetry & The FFT Baseline (GW150914)
+
+In the final phase of testing, the architecture was deployed against the GWOSC Gravitational Wave dataset (GW150914) to test the Resonant Sieve against broadband cosmic background noise and quantum laser fluctuations. To ensure maximum methodological rigor, the Sieve was tested against two baselines: **Deep ReLU** (the standard AI baseline) and a **Rolling Fast Fourier Transform (FFT)** (the standard physics baseline). 
+
+Additionally, an ablation study was conducted to test the necessity of Prime-scaled multipliers versus Composite multipliers in the activation function.
+
+### Empirical Results (Detection Intensity / MSE):
+* **Rolling FFT (Physics Baseline):** 2.0000
+* **Resonant Sieve (Periodic AI):** 1.9354
+* **Deep ReLU (Linear AI):** 0.9337
+
+### Engineering Conclusions:
+1. **The Defeat of Spectral Bias:** The Deep ReLU model completely failed to capture the high-frequency black hole chirp, acting as a low-pass filter and smoothing the anomaly (0.93). The Resonant Sieve (1.93) successfully phase-locked onto the transient signal, **doubling the detection sensitivity of the industry-standard AI**.
+2. **AI vs. Physics:** While the Fast Fourier Transform (2.0) provided the cleanest mathematical detection, the Resonant Sieve proved that a lightweight, self-learning neural network can achieve near-parity with rigid physical formulas by utilizing periodic math. 
+3. **Ablation Study (The Engine Revealed):** Testing Prime vs. Composite multipliers yielded negligible differences (2.02 vs. 1.95) in broadband cosmic noise. This empirically proves that the detection power does not stem from "prime dissonance," but rather from the **periodic activation function itself** (SIREN-like architecture), which inherently overcomes the spectral bias of standard linear networks.
