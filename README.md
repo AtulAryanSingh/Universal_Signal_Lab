@@ -5,7 +5,7 @@
 
 ## 🚀 Quick Start (Reproduce the Clinical Trial)
 To run the Spectral Sieve inference architecture locally:
-1. Clone this repository: `git clone https://github.com/atularyansingh/Universal_Signal_Lab.git`
+1. Clone this repository: `git clone https://github.com/AtulAryanSingh/Universal_Signal_Lab.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Download the Pascal Heart Sound dataset (set_b) and place it in the root directory.
 4. Execute the Global Baseline dashboard: `streamlit run batch_proof.py`
