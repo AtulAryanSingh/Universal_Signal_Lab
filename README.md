@@ -9,6 +9,7 @@ To run the Spectral Sieve inference architecture locally:
 2. Install dependencies: `pip install -r requirements.txt`
 3. Download the Pascal Heart Sound dataset (set_b) and place it in the root directory.
 4. Execute the Global Baseline dashboard: `streamlit run batch_proof.py`
+5. Link - 📄 [Read the Official IEEE Whitepaper (PDF)](./Spectral_Isolation_Whitepaper_AtulAryan.pdf)
 
 ---
 
